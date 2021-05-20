@@ -33,13 +33,13 @@ where foo is the name of the test.
 These are also run when you execute make check. You may need to make clean on occasion.
 
 ## Modified Files:
-1. timer.c
- - add struct list sleeping_list;
- - timer_init();
- - timer_sleep();
- - timer_interrupt();
-2. thread.c
- - thread_unblock();
-3. thread.h
- - add variable int64_t wakeup_ticks;
-4. add function thread_wakeup_ticks_less();
+1. `timer.c`
+ - add `struct list sleeping_list;`
+ - `timer_init();`
+ - `timer_sleep();`
+ - `timer_interrupt();`
+2. `thread.c`
+ - `thread_unblock();`
+3. `thread.h`
+ - add variable `int64_t wakeup_ticks;`
+4. add function `thread_wakeup_ticks_less();`
