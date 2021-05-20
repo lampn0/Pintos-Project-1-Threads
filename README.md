@@ -2,9 +2,9 @@
 Requirements: Alarm Clock, Priority Schduling, Advanced Scheduler
 
 ## Code has been add like:
-/* my code begins */
+/* my code begins *//
  MY CODE IS HEER
-/* my code ends */
+//* my code ends */
 
 # Problem 1: Alarm Clock
 ## Project Requirements:
